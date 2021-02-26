@@ -1,0 +1,24 @@
+<!-- drawable/button_prim.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="343dp"
+    android:height="54dp"
+    android:viewportWidth="343"
+    android:viewportHeight="54"
+    >
+
+    <group>
+
+        <clip-path
+            android:pathData="M27 0H316C330.912 0 343 12.0883 343 27C343 41.9117 330.912 54 316 54H27C12.0883 54 0 41.9117 0 27C0 12.0883 12.0883 0 27 0Z"
+            />
+
+        <path
+            android:pathData="M0 0V54H343V0"
+            android:fillColor="#FF9900"
+            />
+
+    </group>
+
+</vector>

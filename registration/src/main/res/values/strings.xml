@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_phone_number_txt">Введите номер телефона и нажмите \n"Далее"</string>
+    <string name="phone_number_txt">Номер телефона</string>
+    <string name="next_txt">Далее</string>
+    <string name="registration_txt">Регистрация</string>
+    <string name="congratulate_txt">Поздравляем!</string>
+    <string name="next_proceed">Продолжить</string>
+    <string name="proceed_txt">Вы успешно прошли регистрацию.Введите код из смс ниже и нажмите "Продолжить".</string>
+    <string name="i_didnt_get_code_txt">Я не получил код</string>
+    <string name="name_txt">Имя</string>
+    <string name="select_password_txt">Выберете Пароль</string>
+    <string name="repit_password_txt">Повторите пароль</string>
+    <string name="ask_qustion_txt">Ответ на секретный вопрос</string>
+    <string name="accept_terms_of_use_txt">Я согласег с условиями обработки персональных данных</string>
+    <string name="already_registered_text">Вы уже заригестрированны.\nПерейдите к авторизации.</string>
+    <string name="auth_txt">Авторизация</string>
+    <string name="forget_password_txt">Не помню пароль</string>
+    <string name="enter_code_txt">Код из смс-сообщения</string>
+    <string name="patronymic_txt">Отчество</string>
+    <string name="choice_date_txt">Дата рождения</string>
+    <string name="dop_phone_number_txt">Дополнитеьлный Номер</string>
+    <string name="register_txt">Зарегистрироваться</string>
+    <string name="last_name">Фамилия</string>
+</resources>

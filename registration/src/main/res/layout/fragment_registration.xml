@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_name"
+            style="@style/CustomEditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints="996557071204"
+            android:hint="@string/name_txt"
+            android:inputType="phone"
+            android:paddingStart="16dp" />
+
+        <EditText
+            android:id="@+id/et_second_name"
+            style="@style/CustomEditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints="996557071204"
+            android:hint="@string/patronymic_txt"
+            android:inputType="phone"
+            android:paddingStart="16dp" />
+
+        <EditText
+            android:id="@+id/et_last_name"
+            style="@style/CustomEditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints="996557071204"
+            android:hint="@string/last_name"
+            android:inputType="phone"
+            android:paddingStart="16dp" />
+
+        <EditText
+            android:id="@+id/et_choice_date"
+            style="@style/CustomEditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints="996557071204"
+            android:hint="@string/choice_date_txt"
+            android:inputType="date"
+            android:paddingStart="16dp" />
+
+        <Spinner
+            android:id="@+id/spinner_list_gender"
+            style="@style/CustomSpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:paddingStart="16dp" />
+
+        <Spinner
+            android:id="@+id/spinner_list_nationality"
+            style="@style/CustomSpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:paddingStart="16dp" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            style="@style/CustomEditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints="996557071204"
+            android:hint="@string/phone_number_txt"
+            android:inputType="none"
+            android:paddingStart="16dp"
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/et_dop_phone"
+            style="@style/CustomEditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints="996557071204"
+            android:hint="@string/dop_phone_number_txt"
+            android:inputType="phone"
+            android:paddingStart="16dp" />
+
+        <Spinner
+            android:id="@+id/spinner_list_traffic_source"
+            style="@style/CustomSpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:paddingStart="16dp" />
+
+        <Spinner
+            android:id="@+id/spinner_list_secret_question"
+            style="@style/CustomSpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:paddingStart="16dp" />
+
+        <EditText
+            android:id="@+id/et_ask_question"
+            style="@style/CustomEditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints="996557071204"
+            android:hint="@string/ask_qustion_txt"
+            android:inputType="text"
+            android:paddingStart="16dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:text="@string/accept_terms_of_use_txt" />
+
+        <Button
+            android:id="@+id/btn_proceed"
+            style="@style/CustomButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/register_txt"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view_didnt_det_coe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16sp"
+            android:text="@string/i_didnt_get_code_txt"
+            android:textColor="#FF9900" />
+
+    </LinearLayout>
+
+</ScrollView>

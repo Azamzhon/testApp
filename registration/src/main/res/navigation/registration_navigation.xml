@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registration_navigation"
+    app:startDestination="@id/enterPhoneFragment">
+
+    <fragment
+        android:id="@+id/enterPhoneFragment"
+        android:name="com.geektech.registration.ui.enter_phone.EnterPhoneFragment"
+        android:label="EnterPhoneFragment"
+        tools:layout="@layout/fragment_enter_phone">
+        <action
+            android:id="@+id/action_enterPhoneFragment_to_enterCodeFragment"
+            app:destination="@id/enterCodeFragment" />
+        <action
+            android:id="@+id/action_enterPhoneFragment_to_alreadyRegisteredFragment"
+            app:destination="@id/alreadyRegisteredFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/enterCodeFragment"
+        android:name="com.geektech.registration.ui.enter_code.EnterCodeFragment"
+        android:label="EnterCodeFragment"
+        tools:layout="@layout/fragment_enter_code">
+        <action
+            android:id="@+id/action_enterCodeFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.geektech.registration.ui.registration.RegistrationFragment"
+        android:label="RegistrationFragment"
+        tools:layout="@layout/fragment_registration" />
+    <fragment
+        android:id="@+id/alreadyRegisteredFragment"
+        android:name="com.geektech.registration.ui.already_registered.AlreadyRegisteredFragment"
+        android:label="AlreadyRegisteredFragment"
+        tools:layout="@layout/fragment_already_registered" />
+
+</navigation>
